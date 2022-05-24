@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: rgba(7, 6, 6, 0.4);
+}
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+form {
+  max-width: 600px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+fieldset {
+  border: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+label {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+input, select {
+  border: 1px solid #cccccc;
+  padding: 10px 20px;
+  min-height: 50px;
+  width: 100%;
+  border-radius: 4px;
+}
+select {
+  -webkit-appearance: none;
+}
+
+.form-fieldset-multi input {
+  min-height: auto;
+}
+.has-error {
+  color: red;
+}
+
+input[type="submit"] {
+  background: rgb(84, 84, 239);
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: auto;
+  padding: 10px 25px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+input[type="submit"]:active,
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+  background: rgb(53, 53, 238);
+  outline: 2px solid blue;
+}
